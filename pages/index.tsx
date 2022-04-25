@@ -320,6 +320,7 @@ const Home: NextPage = () => {
                         onDelete={() => handleDeleteTask(todo.id)}
                         key={`uncompleted-${todo.id}`}
                         collectionID={todo.collectionID}
+                        subTasks={[]}
                       />
                     ))}
                 </AnimatePresence>
